@@ -1,0 +1,51 @@
+body {
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;            
+    justify-content: center;   
+    align-items: center;       
+    height: 100vh;            
+}
+
+.invite-card {
+    width: 80%;
+    max-width: 700px;          
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-color: white;   
+}
+
+h1, h3 {
+    text-align: center;
+    color:palevioletred;
+    word-spacing: 5px;
+}
+
+p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+footer {
+    background-color:lightpink;
+    padding: 10px;
+    font-size: smaller;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    font-weight: bold;
+}
