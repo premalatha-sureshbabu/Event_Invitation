@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/631d244c-ec73-4d50-a4e2-2ae10a8a4c27)# Event_Invitation
+# Event_Invitation
 # Objective:
 To design a visually appealing event invitation using HTML elements and basic CSS styling for structure and layout.
 
