@@ -83,7 +83,7 @@ Style with light border-top or different background shade.
                 We warmly invite you to join us for an evening filled with memories, laughter, and new connections.
                 Let’s relive the good old days and create new unforgettable moments together!
             </p>
-            <img src="download.jpg" alt="Event banner">
+            <img src="download.jpg" alt="Event banner" class="banner">
             <p>Date:August 25, 2025</p>
             <p>Time:6:00 pm onwards</p>
             <p>Venue:College Auditorium</p>
@@ -113,6 +113,11 @@ body {
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     background-color: white;   
+}
+.banner {
+    max-width: 40%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 h1, h3 {
