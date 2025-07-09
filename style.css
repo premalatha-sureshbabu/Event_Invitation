@@ -1,56 +1,44 @@
 body {
-    background-color: beige;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;            
-    justify-content: center;   
-    align-items: center;       
-    height: 100vh;            
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding:20px;
 }
-
 .invite-card {
-    width: 80%;
-    max-width: 700px;          
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    background-color: white;   
+    max-width: 800px;
+    background-color: aliceblue;
+    margin: 50px auto;
+    padding: 30px ;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(211, 95, 247, 0.1);
+    text-align:center;
 }
 .banner {
     max-width: 40%;
     border-radius: 10px;
     margin-bottom: 20px;
 }
-
-h1, h3 {
-    text-align: center;
-    color:palevioletred;
-    word-spacing: 5px;
+h1 {
+    color:rgb(216, 171, 88);
+    margin-bottom: 10px;
 }
-
+h3 {
+    color: bisque;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
 p {
-    text-align: center;
-    line-height: 1.5;
+    font-size: 16px;
+    margin:10px 0;
 }
-
-img {
-    border-radius: 50%;
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-}
-
-footer {
-    background-color:lightpink;
-    padding: 10px;
-    font-size: smaller;
-    text-align: center;
-    border-radius: 0 0 10px 10px;
-}
-
-a {
-    text-decoration: none;
-}
-
-label {
+p strong {
     font-weight: bold;
+    color: aliceblue;
+}
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    border-top: 1px solid #dddddd73;
+    padding-top: 15px;
+    color: #555;
 }
